@@ -34,4 +34,4 @@ profiles = PerformanceTable(
     scales=scales
 )
 
-categories = ['Reprovado', 'Aprovado parcialmente', 'Aprovado']
+categories = ['Reprovado', 'Aprovado Parcialmente', 'Aprovado']

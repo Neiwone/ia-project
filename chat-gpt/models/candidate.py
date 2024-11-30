@@ -1,4 +1,4 @@
-from person import Person
+from models.person import Person
 
 class Candidate:
     def __init__(self, record: Person, experience, soft_skills, hard_skills, team_work, problem_solving):
@@ -21,10 +21,10 @@ class Candidate:
     
     def score(self, competency):
         mapping = {
-            'bad':     0,
-            'regular':  0.5,
-            'good':      0.75,
-            'great':    1
+            'bad':      1,
+            'regular':  5,
+            'good':     7.5,
+            'great':    10
         }
 
         return mapping.get(competency.lower(), 0)

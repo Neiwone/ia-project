@@ -1,5 +1,5 @@
 from mcda.outranking.electre import *
-from electre_config import *
+from classifier.electre_config import *
 from models.candidate import *
 
 class Classifier:
